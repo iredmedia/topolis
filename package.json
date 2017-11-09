@@ -1,8 +1,9 @@
 {
   "name": "topolis",
   "description": "JavaScript topology representation and manipulation",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "author": "Björn Harrtell <bjorn@wololo.org>",
+  "main": "dist/topolis.js",
   "keywords": [
     "JSTS",
     "JavaScript",

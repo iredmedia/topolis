@@ -23,23 +23,6 @@ export default {
       git_hash: git.short()
     }),
     resolve(),
-    commonjs(),
-    babel({
-      presets: [['env', {
-        modules: false,
-        targets: {
-          browsers: ['> 2%']
-        }
-      }]],
-      plugins: [
-        'external-helpers'
-      ],
-      babelrc: false
-    }),
-    uglify({
-      output: {
-        comments: (node, token) => token.line < 4
-      }
-    })
+    commonjs()
   ]
 }
